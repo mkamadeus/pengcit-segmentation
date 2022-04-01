@@ -1,3 +1,3 @@
-# pengcit-frequency
+# pengcit-segmentation
 
 MATLAB is weird
