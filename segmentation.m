@@ -6,7 +6,7 @@ gray = rgb2gray(I);
 % e = imbinarize(e, T);
 % imshow(e); title Laplacian;
 
-subplot(3,2,1);
+subplot(2,2,1);
 imshow(I);
 
 STD = 1.5;
@@ -18,7 +18,7 @@ e = imbinarize(e, 'adaptive');
 disp(size(e));
 
 %e = uint8(edge(gray, "Canny", [], 0.25) * 255);
-subplot(3,2,2);
+subplot(2,2,2);
 imshow(e, [0 1]); 
 %hold on;
 %plot(320,240, 'r+', 'MarkerSize', 30, 'LineWidth', 2);
@@ -32,11 +32,11 @@ mask = imdilate(mask, strel('line', 10, 0));
 mask = imdilate(mask, strel('disk', 10));
 
 mask = imfill(mask, [320 240], 8);
-subplot(3,2,3);
+subplot(2,2,3);
 imshow(mask, [0 1]); title LoG;
 result = I .* uint8(mask);
 
-subplot(3,2,4);
+subplot(2,2,4);
 imshow(result); title LoG;
 
 % C = 2
