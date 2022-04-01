@@ -1,6 +1,6 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
   <configuration file="C:\Users\ozer0\Documents\Uni Stuff\IF4073 - IPC\Tugas 3\PengcitFreqDomain.prj" location="C:\Users\ozer0\Documents\Uni Stuff\IF4073 - IPC\Tugas 3" name="PengcitFreqDomain" target="target.ezdeploy.standalone" target-name="Application Compiler">
-    <param.appname>PengcitSegmentationOrange</param.appname>
+    <param.appname>PengcitOrangeSegmentation</param.appname>
     <param.icon />
     <param.icons />
     <param.version>1.0</param.version>
@@ -11,7 +11,7 @@
     <param.description />
     <param.screenshot />
     <param.guid />
-    <param.installpath.string>\PengcitSegmentationOrange\</param.installpath.string>
+    <param.installpath.string>\PengcitOrangeSegmentation\</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
     <param.logo />
     <param.install.notes />
@@ -98,8 +98,8 @@
     </fileset.depfun>
     <build-deliverables>
       <file location="${PROJECT_ROOT}\PengcitFreqDomain\for_testing" name="splash.png" optional="false">C:\Users\ozer0\Documents\Uni Stuff\IF4073 - IPC\Tugas 3\PengcitFreqDomain\for_testing\splash.png</file>
-      <file location="${PROJECT_ROOT}\PengcitFreqDomain\for_testing" name="PengcitSegmentationOrange.exe" optional="false">C:\Users\ozer0\Documents\Uni Stuff\IF4073 - IPC\Tugas 3\PengcitFreqDomain\for_testing\PengcitSegmentationOrange.exe</file>
       <file location="${PROJECT_ROOT}\PengcitFreqDomain\for_testing" name="readme.txt" optional="true">C:\Users\ozer0\Documents\Uni Stuff\IF4073 - IPC\Tugas 3\PengcitFreqDomain\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\PengcitFreqDomain\for_testing" name="PengcitOrangeSegmentation.exe" optional="false">C:\Users\ozer0\Documents\Uni Stuff\IF4073 - IPC\Tugas 3\PengcitFreqDomain\for_testing\PengcitOrangeSegmentation.exe</file>
     </build-deliverables>
     <workflow />
     <matlab>
